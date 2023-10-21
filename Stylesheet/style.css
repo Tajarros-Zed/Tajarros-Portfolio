@@ -682,8 +682,8 @@ body {
 }
 
 @media (max-width: 480px) {
-    .social-container {
-        gap: 4rem;
+    .child-container-one .social-container {
+        gap: 2rem;
     }
     
     .about-container span p {
@@ -741,8 +741,8 @@ body {
 
 
 @media (max-width: 395px) {
-    .social-container {
-        gap: 2rem;
+    .child-container-one .social-container {
+        gap: 1rem;
     }
 
     .parent-container-four {
