@@ -682,6 +682,11 @@ body {
 }
 
 @media (max-width: 480px) {
+    .social-container {
+        gap: 5rem;
+    }
+
+
     .about-container span p {
         font-size: 1rem;
         line-height: 1.3rem;
@@ -737,6 +742,10 @@ body {
 
 
 @media (max-width: 395px) {
+    .social-container {
+        gap: 4rem;
+    }
+
     .parent-container-four {
         padding-top: 60%;
     }
