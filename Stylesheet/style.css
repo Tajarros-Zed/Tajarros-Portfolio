@@ -580,6 +580,7 @@ body {
         align-items: center;
         justify-content: center;
         margin-top: 5px;
+        gap: 8rem;
     }
 
     .child-container-one .social-container a {
@@ -607,6 +608,14 @@ body {
         gap: 0;
     }
 
+    .parent-container-three {
+        padding-top: 35%;
+    }
+
+    .parent-container-three h3 {
+        margin-bottom: 15%;
+    }
+
     .about-container img {
         width: 85%;
     }
@@ -630,16 +639,45 @@ body {
         width: 40%;
     }
 
+    .parent-container-two {
+        padding-top: 40%;
+    }
+
     .parent-container-two h3 {
-        margin-bottom: 5%;
+        margin-bottom: 15%;
     }
 
     .parent-container-four {
         justify-items: center;
+        padding-top: 40%;
+    }
+
+    .parent-container-four h3 {
+        margin-bottom: 5%
     }
 
     .skills-container {
         justify-items: center;
+    }
+
+    .card-skill-container {
+        width: 100%;
+    }
+
+    .card-skill-container .front-skill {
+        align-items: start;
+        justify-content: center;
+    }
+
+    .card-skill-container .front-skill figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .parent-container-five {
+        padding-top: 25%;
     }
 }
 
@@ -698,13 +736,21 @@ body {
 }
 
 
-@media (max-width: 380px) {
+@media (max-width: 395px) {
     .parent-container-four {
+        padding-top: 60%;
+    }
+
+    .parent-container-three {
         padding-top: 35%;
     }
 
     .parent-container-two {
-        padding-top: 35%;
+        padding-top: 50%;
+    }
+
+    .parent-container-two h3 {
+        margin-bottom: 20%;
     }
 
     .parent-container-five {
