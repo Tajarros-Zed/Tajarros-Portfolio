@@ -683,10 +683,9 @@ body {
 
 @media (max-width: 480px) {
     .social-container {
-        gap: 5rem;
+        gap: 4rem;
     }
-
-
+    
     .about-container span p {
         font-size: 1rem;
         line-height: 1.3rem;
@@ -743,7 +742,7 @@ body {
 
 @media (max-width: 395px) {
     .social-container {
-        gap: 4rem;
+        gap: 2rem;
     }
 
     .parent-container-four {
