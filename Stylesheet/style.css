@@ -689,7 +689,25 @@ body {
 
     .front-skill {
         align-items: start;
-        justify-content: left;
+        justify-content: center;
+    }
+
+    .front-skill figure {
+        margin: 0 10px 10px 10px;
     }
 }
 
+
+@media (max-width: 380px) {
+    .parent-container-four {
+        padding-top: 35%;
+    }
+
+    .parent-container-two {
+        padding-top: 35%;
+    }
+
+    .parent-container-five {
+        padding-top: 35%;
+    }
+}
